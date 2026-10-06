@@ -460,51 +460,51 @@ int main()
 }
 
 
-========== BST CREATED ==========
-Inserted values: 50 30 70 20 40 60 80 
+// ========== BST CREATED ==========
+// Inserted values: 50 30 70 20 40 60 80 
 
-========== SEARCH ==========
-40 found in BST
-100 not found in BST
+// ========== SEARCH ==========
+// 40 found in BST
+// 100 not found in BST
 
-========== TRAVERSALS ==========
-Inorder   : 20 30 40 50 60 70 80 
-Preorder  : 50 30 20 40 70 60 80 
-Postorder : 20 40 30 60 80 70 50 
+// ========== TRAVERSALS ==========
+// Inorder   : 20 30 40 50 60 70 80 
+// Preorder  : 50 30 20 40 70 60 80 
+// Postorder : 20 40 30 60 80 70 50 
 
-========== HEIGHT ==========
-Height of tree = 3
+// ========== HEIGHT ==========
+// Height of tree = 3
 
-========== LEAF NODES ==========
-Number of leaf nodes = 4
+// ========== LEAF NODES ==========
+// Number of leaf nodes = 4
 
-========== PARENT NODES ==========
-Number of parent nodes = 7
+// ========== PARENT NODES ==========
+// Number of parent nodes = 7
 
-========== MINIMUM NODE ==========
-Minimum value = 20
+// ========== MINIMUM NODE ==========
+// Minimum value = 20
 
-========== LEVEL ORDER DFS ==========
-[ 50 ] [ 30 70 ] [ 20 40 60 80 ] 
+// ========== LEVEL ORDER DFS ==========
+// [ 50 ] [ 30 70 ] [ 20 40 60 80 ] 
 
-========== LEVEL ORDER BFS ==========
-[ 50 ] [ 30 70 ] [ 20 40 60 80 ] 
+// ========== LEVEL ORDER BFS ==========
+// [ 50 ] [ 30 70 ] [ 20 40 60 80 ] 
 
-========== LEFT SIDE VIEW ==========
-Left view: 50 30 20 
+// ========== LEFT SIDE VIEW ==========
+// Left view: 50 30 20 
 
-========== RIGHT SIDE VIEW ==========
-Right view: 50 70 80 
+// ========== RIGHT SIDE VIEW ==========
+// Right view: 50 70 80 
 
-========== DELETE NODE ==========
-Deleting node: 70
-Inorder after deletion: 20 30 40 50 60 80 
+// ========== DELETE NODE ==========
+// Deleting node: 70
+// Inorder after deletion: 20 30 40 50 60 80 
 
-========== AFTER DELETION ==========
-Height = 3
-Leaf nodes = 3
-Parent nodes = 6
-Left view = 50 30 20 
+// ========== AFTER DELETION ==========
+// Height = 3
+// Leaf nodes = 3
+// Parent nodes = 6
+// Left view = 50 30 20 
 Right view = 50 80 60 
 
 
